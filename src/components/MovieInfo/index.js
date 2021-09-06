@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 // Components
 import Thumb from '../Thumb';
 // Config
@@ -8,7 +9,7 @@ import NoImage from '../../images/no_image.jpg';
 // Styles
 import { Wrapper, Content, Text } from './MovieInfo.styles';
 
-const movieInfo = ({ movie }) => (
+const MovieInfo = ({ movie }) => (
     <Wrapper backdrop={movie.backdrop_path}>
         <Content>
             <Thumb 
@@ -42,4 +43,8 @@ const movieInfo = ({ movie }) => (
     </Wrapper>
 );
 
-export default movieInfo;
+MovieInfo.propTypes = {
+    movie: PropTypes.object
+};
+
+export default MovieInfo;
