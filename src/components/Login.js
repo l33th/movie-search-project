@@ -58,7 +58,7 @@ const Login = () => {
 				name="password"
 				onChange={handleInput}
 			/>
-			<Button text="Login" callback={handleSubmit} />
+			<Button className="login-color" text="Login" callback={handleSubmit} />
 		</Wrapper>
 	);
 };

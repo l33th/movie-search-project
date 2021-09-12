@@ -18,6 +18,10 @@ export const Content = styled.div`
 		color: var(--white);
 		text-decoration: none;
 	}
+  
+    span {
+      color: black;
+    }
 `;
 
 export const LogoImg = styled.img`
