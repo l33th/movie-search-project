@@ -16,8 +16,9 @@ After those steps are complete you need to add your own TMDB API key:
 * Paste your API key in the REACT_APP_API_KEY variable
 * Example:
     REACT_APP_API_KEY=45k32jh6k54h65jh63
-* After the steps have been completed, open a terminal in the wm-react-movie folder and execute the 'npm start' command (without the quotes)
-* Open your browser and in the address bar go to localhost:3000
+* After the steps have been completed, open a terminal in the wm-movie-search folder and execute the 'npm start' command (without the quotes)
+* Your browser will open on localhost:3000
+* If your browser does not automatically open then open your browser and in the address bar go to localhost:3000
 -------------------------------------------------------------------------
 
 # Getting Started with Create React App
